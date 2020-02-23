@@ -1,0 +1,249 @@
+/* .main-container {
+  width: 100%;
+}
+
+.about-us {
+  padding: 0;
+  margin: 0;
+  p {
+    color: grey;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  button {
+    background-color: #17daa3;
+    color: #ffffff;
+    &:hover {
+      background: none;
+      color: black;
+      border: 2px solid #17daa3;
+    }
+  }
+}
+
+.about-us-margin {
+  margin-bottom: 50px;
+}
+
+.about-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  background-color: #edeff0;
+  border-radius: 50%;
+  padding: 100px;
+  &:hover {
+    background-color: #17daa3;
+  }
+}
+
+.about-us-flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.our-advantages {
+  background: #f9f9fa;
+  button {
+    display: block;
+    margin: 0;
+    background: #17daa3;
+    color: #ffffff;
+    @media (max-width: 800px) {
+      margin: 0 auto;
+    }
+    &:hover {
+      background: none;
+      color: black;
+      border: 2px solid #17daa3;
+    }
+  }
+}
+
+.main-advantage {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  @media (max-width: 800px) {
+    flex-direction: column;
+  }
+}
+
+.secondary-advantage {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  @media (max-width: 800px) {
+    flex-direction: column-reverse;
+  }
+  button {
+    display: block;
+    margin: 0;
+    background-color: #17daa3;
+    color: #ffffff;
+    &:hover {
+      background: none;
+      color: black;
+      border: 2px solid #17daa3;
+    }
+    @media (max-width: 800px) {
+      margin: 0 auto;
+    }
+  }
+}
+
+.advantage-content {
+  display: flex;
+  flex-direction: column;
+  margin: 50px 0;
+  h3 {
+    color: grey;
+    font-size: 48px;
+    font-weight: 200;
+    text-align: left;
+    @media (max-width: 800px) {
+      text-align: center;
+      font-size: 30px;
+    }
+  }
+  p {
+    color: grey;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 36px;
+    text-align: justify;
+    @media (max-width: 800px) {
+      display: block;
+      margin: 0 auto 50px;
+      text-align: center;
+    }
+  }
+}
+
+.advantage-img-top, .advantage-img-bottom {
+  min-width: 50%;
+  height: auto;
+  background: url("../img/siyanie.jpg") no-repeat center;
+  background-size: contain;
+  margin: 30px 30px 0 0;
+  @media (max-width: 800px) {
+    width: 100%;
+    min-height: 40vh;
+    margin-bottom: 10px;
+  }
+}
+
+.advantage-img-bottom {
+  margin-left: 60px;
+  margin-right: 0;
+  @media (max-width: 800px) {
+    margin-left: 0;
+  }
+}
+
+.reviews-section {
+  background: url("../img/review-bg.jpg") no-repeat center;
+  background-size: cover;
+  padding: 150px 0;
+  span {
+    display: block;
+    margin: 0 auto 75px;
+    font-size: 18px;
+    text-align: center;
+    opacity: 0.3;
+    color: #ffffff;
+  }
+  img {
+    display: block;
+    margin: 0 auto 50px;
+  }
+  p {
+    display: block;
+    margin: 0 auto 50px;
+    color: #ffffff;
+    font-size: 30px;
+    @media (max-width: 767px) {
+      font-size: 24px;
+    }
+  }
+  .special-word {
+    color: #17daa3;
+    font-style: normal;
+  }
+}
+
+left and right arrows
+.quote {
+  position: relative;
+  &:before {
+    position: absolute;
+    left: 0;
+    cursor: pointer;
+    content: "\2039";
+    font-size: 70px;
+    color: grey;
+    transform: translateY(-35px);
+    @media (max-width: 850px) {
+      display: none;
+    }
+  }
+  &:after {
+    position: absolute;
+    top: 10px;
+    cursor: pointer;
+    right: 0;
+    content: "\2039";
+    font-size: 70px;
+    transform: rotate(180deg) translateY(35px);
+    color: grey;
+    @media (max-width: 850px) {
+      display: none;
+    }
+  }
+}
+
+.our-services {
+  padding: 50px 0;
+  background-color: #edeff0;
+  h3 {
+    color: #576671;
+    font-size: 48px;
+    text-align: left;
+    @media (max-width: 992px) {
+      font-size: 30px;
+      text-align: center;
+    }
+  }
+  span {
+    display: block;
+    color: #87949e;
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 50px;
+  }
+  p {
+    color: #87949e;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 40px;
+    text-align: justify;
+    @media (max-width: 992px) {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+  }
+}
+
+.img-box {
+  @media (max-width: 992px) {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+}
+
+*/
